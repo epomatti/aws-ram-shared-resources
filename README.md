@@ -20,7 +20,7 @@ aws ram create-resource-share \
   --no-allow-external-principals
 ```
 
-Resources can be shared with multiple accounts, and event to an entire Organization. You could also re it with the option 
+Resources can be shared with multiple accounts, and event to an entire Organization.
 
 To list for example subnet ARNs: `aws ec2 describe-subnets`
 
